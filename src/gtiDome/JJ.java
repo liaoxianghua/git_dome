@@ -1,7 +1,7 @@
 package gtiDome;
 
 public class JJ {
-    public static void static(String[] args){
+    public static void main(String[] args){
       
     }
 }
