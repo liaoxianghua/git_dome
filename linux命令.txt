@@ -1,0 +1,4 @@
+查看进程启动时间
+   ps -eo pid,tty,user,comm,lstart,etime | grep init
+
+   for i in $(pgrep java);do echo $i;ll /proc/$i/cwd;netstat -ntpl |grep $i ;done 
